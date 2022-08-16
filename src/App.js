@@ -1,13 +1,16 @@
-import logo from './logo.svg';
+import hambur from './hambur.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={hambur} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Futuro E-Commerce sobre comida
+        </p>
+        <p>
+          Diego Casas
         </p>
         <a
           className="App-link"
@@ -15,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Don´t Learn React
         </a>
       </header>
     </div>
