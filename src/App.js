@@ -3,16 +3,21 @@ import './App.css';
 
 //Componentes
 import NavBar from './Componentes/NavBar';
+import Card from './Componentes/Card'
+import Landing from './Componentes/landing'
+
 
 class App extends React.Component {
   render () {
     return (
-      <div>
-        <NavBar />
-
+      <div className='container'>
+        <div>
+          <NavBar />
+        </div>
+        <div>
+          <Landing />
+        </div>
       </div>
-
-
     )
   }
 }

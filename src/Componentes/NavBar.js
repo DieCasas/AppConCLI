@@ -1,7 +1,11 @@
 import '../App.css'
-const navBar = () => {
+import Icono from './Icono'
+const NavBar = () => {
     return (
         <nav>
+            <div>
+            <Icono />
+            </div>
             <div class="containerLista">  
                 <ul class="lista">
                     <div>
@@ -16,14 +20,4 @@ const navBar = () => {
         </nav>
     )
 }
-
-export default navBar;
-
-
-
-
-
-
-
-
-
+export default NavBar ;

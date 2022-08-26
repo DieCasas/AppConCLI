@@ -91,4 +91,26 @@ li:hover {
   cursor: pointer;
 }
 
+.container{
+  
+} 
 
+.containerCards{
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  flex-flow: wrap;
+}
+
+
+.loguito {
+  position: fixed;
+  left: 100px;
+  top: 10px;
+  width: 80px;
+}
+
+.cards{
+  display: flex;
+  margin: 30px 30px 30px 30px;
+}
